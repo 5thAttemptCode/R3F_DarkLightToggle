@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, #root{
+  height: 100vh;
+  width: 100%;
+}
+
+button{
+  position: absolute;
+  top: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+}
